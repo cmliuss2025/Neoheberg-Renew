@@ -2,7 +2,7 @@ name: Neoheberg Renew
 
 on:
   schedule:
-    - cron: "0 2 * * 1"     # 每周一 UTC 02:00（北京时间 10:00）
+    - cron: "5 2 * * 1"     # 每周一 UTC 02:05（北京时间 10:00）
   workflow_dispatch:         # 可在 Actions 页面手动触发
     inputs:
       force_renew:
